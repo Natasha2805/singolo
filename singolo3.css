@@ -137,22 +137,22 @@ body {
 .address-item:nth-child(3n) {
     margin-top: 11px;
 }
-.location:before {
+span.location:before {
      background-position: center;
      background-size: contain;
      background: url(../assets/img/location.png) 0 0 no-repeat;
 }
-.phone:before {
+span.phone:before {
     background-position: center;
     background-size: contain;
     background: url(../assets/img/phone2.png) 0 0 no-repeat;
 }
-.mail:before {
+span.mail:before {
     background-position: center;
     background-size: contain;
     background: url(../assets/img/mail.png) 0 0 no-repeat;
 }
- .mail-link {
+.mail-link {
     text-decoration: none;
     color: #f0d8d9;
 }
@@ -160,6 +160,7 @@ body {
     text-decoration: none;
     color: #f0d8d9;
 }
+.address
 .location {
     color: #f0d8d9;
 }
