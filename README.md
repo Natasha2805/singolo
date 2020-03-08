@@ -1,4 +1,4 @@
-https://Natasha2805.github.io/singolo/
+https://Natasha2805.github.io/singolo/index.html
 
 
 https://Natasha2805.github.io/singolo/singolo1.html
