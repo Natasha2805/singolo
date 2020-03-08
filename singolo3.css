@@ -137,20 +137,20 @@ body {
 .address-item:nth-child(3n) {
     margin-top: 11px;
 }
-span.location:before {
+.location:before {
      background-position: center;
      background-size: contain;
-     background: url(../assets/img/location.png) 0 0 no-repeat;
+     background: url(assets/img/location.png) 0 0 no-repeat;
 }
-span.phone:before {
+.phone:before {
     background-position: center;
     background-size: contain;
-    background: url(../assets/img/phone2.png) 0 0 no-repeat;
+    background: url(assets/img/phone2.png) 0 0 no-repeat;
 }
-span.mail:before {
+.mail:before {
     background-position: center;
     background-size: contain;
-    background: url(../assets/img/mail.png) 0 0 no-repeat;
+    background: url(assets/img/mail.png) 0 0 no-repeat;
 }
 .mail-link {
     text-decoration: none;
