@@ -63,7 +63,7 @@ body {
     font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: -0.1px;
+    letter-spacing: -0.5px;
     line-height: 20px;
     color: #ffffff;
 }
@@ -381,7 +381,7 @@ body {
     height: 6px;
     background: #ffffff;
 }
-.quate-title {   
+.quote-title {   
     display: block;
     margin-top: 0;
     margin-bottom: 27px;
@@ -392,7 +392,7 @@ body {
     letter-spacing: -0.1px;
     color: #f0d8d9;
 }
-.quate-desc {
+.quote-desc {
     margin-bottom: 50px;
     font-family: "Lato";
     font-size: 18px;
@@ -402,8 +402,8 @@ body {
     text-align: justify;
     color: #f0d8d9;
 }
-.quate {
-    padding-top: 70px;
+.quote {
+    padding-top: 69px;
     background-color: #f06c64;
 }
 .form {
@@ -411,7 +411,7 @@ body {
     justify-content: space-between;
 }
 .form-wrapper {
-    margin-top: 43px;
+    margin-top: 44px;
     width: 619px;
 }
 .form-wrapper-item {
@@ -425,8 +425,8 @@ body {
 }
 .quote-form input {
     width: 100%;
-    margin-bottom: 17px;
-    height: 37px;
+    margin-bottom: 16px;
+    height: 38px;
     border: 0;
     border-radius: 5px;
 }
@@ -460,9 +460,9 @@ body {
     color: #e4bdc6;
     background: #808080;
 }
-.quate-info {
-    margin-left: 23px;
-    margin-top: 44px;
+.quote-info {
+    margin-left: 21px;
+    margin-top: 45px;
 }
 .contact-info-title {
     font-family: "Lato";
@@ -482,25 +482,29 @@ body {
     text-align: justify;
     color: #f0d8d9;
 }
-.quate-bottom {
+.quote-bottom {
     height: 6px;
     background-color: #ea676b;
 }
 .address {
-    margin-top: 24px
+    margin-top: 21px
 }
 .address-item {
     display: block;
-    margin-bottom: 9px;
     font-size: 12px;
     font-family: "Lato";
+    line-height: 22px;
 }
 .address-item:before {
     display: inline-block;
     width: 14px;
     height: 12px;
-    margin-right: 6px;
+    margin-right: 7px;
+    margin-left: 2px;
     content: '';
+}
+.address-item:nth-child(3n){
+    margin-top: 3px;
 }
 .location:before {
      background-position: center;
