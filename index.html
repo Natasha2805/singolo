@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Singolo</title>
@@ -7,277 +8,332 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-     <header class="header">
+    <header id="home" class="header">
         <div class="container">
-           <div class="header-wrapper">
-               <a href="#" class="header-logo"><h1 class="header-logo-singolo">Singolo<sap class="header-logo-star">*</sap></h1></a>
-               <nav class="header-nav">
-                   <ul class="header-menu">
-                       <li><a href="#" class="header-menu-link">home</a></li>
-                       <li class="header-menu-point">·</li>
-                       <li><a href="#" class="header-menu-link">services</a></li>
-                       <li class="header-menu-point">·</li>
-                       <li><a href="#" class="header-menu-link">portfolio</a></li>
-                       <li class="header-menu-point">·</li>
-                       <li><a href="#" class="header-menu-link">about</a></li>
-                       <li class="header-menu-point">·</li>
-                       <li><a href="#" class="header-menu-link">contact</a></li>
-                   </ul>
-               </nav>
-           </div>
+            <div class="header-wrapper">
+                <a href="#" class="header-logo">
+                    <h1 class="header-logo-singolo">Singolo<sap class="header-logo-star">*</sap>
+                    </h1>
+                </a>
+                <nav class="header-nav">
+                    <ul class="header-menu">
+                        <li><a href="#home" class="header-menu-link active">home</a></li>
+                        <li class="header-menu-point">·</li>
+                        <li><a href="#services" class="header-menu-link">services</a></li>
+                        <li class="header-menu-point">·</li>
+                        <li><a href="#portfolio" class="header-menu-link">portfolio</a></li>
+                        <li class="header-menu-point">·</li>
+                        <li><a href="#about" class="header-menu-link">about</a></li>
+                        <li class="header-menu-point">·</li>
+                        <li><a href="#contact" class="header-menu-link">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
         <div class="header-bottom"></div>
     </header>
     <section class="slider">
-        <div class="container">
-            <div class="slider-wrapper">
-                <div class="slider-item slider-item_1">
-                    <img src="assets/img/iPhone_Vertical.png" alt="iPhone vertical" class="slider-item-content">
-                </div>
-                <div class="slider-item slider-item_2">
-                    <img src="assets/img/iPhone_Horizontal.png" alt="iPhone horizontal" class="slider-item-content">
-                </div>
-                <div class="slider-arrows">
-                    <div class="slider-arrow-prev slider-arrow"></div>
-                    <div class="slider-arrow-next slider-arrow"></div>
+        <div class="slide_1 slide">
+            <div class="container active-background">
+                <div class="slider-wrapper">
+                    <div class="slider-slides first">
+                        <div class="slider-item slider-item_1">
+                            <div class="phone-container">
+                                <img src="assets/img/iPhone_Vertical.png" alt="iPhone vertical"
+                                    class="slider-item-content">
+                                <img class="screen-black active-screen-vertical" src="assets/img/Screen1.png">
+                                <div class="buttom-phone-1"></div>
+                            </div>
+                        </div>
+                        <div class="slider-item slider-item_2">
+                            <div class="phone-container">
+                                <img src="assets/img/iPhone_Horizontal.png" alt="iPhone horizontal"
+                                    class="slider-item-content">
+                                <img class="screen-black active-screen-gorizontal" src="assets/img/Screen2.png">
+                               <div class=buttom-phone-2></div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+
+        </div>
+        <div class="slide_2 slide">
+            <div class="container active-background">
+                <div class="slider-wrapper">
+                    <div class="slider-slides second">
+                        <div class="slider-second-slide">
+                            <img src="assets/img/Slide-2.png" alt="slide-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="slider-arrows container">
+            <div class="slider-arrow-prev slider-arrow"></div>
+            <div class="slider-arrow-next slider-arrow"></div>
         </div>
         <div class="slider-bottom"></div>
     </section>
-    <section class="services">
-           <div class="container">
-              <div class="services-wrapper">
-                 <h2 class="title">Our Services</h2>
-                 <span class="desc services-desc">Fusce dapibus, tellusac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus nisi erat porttitor Ligula, eget Lacinia odio sem necelit. Fusce dapibus, tellus ac cursus commodo, tordor mauris condimenturn nibn.</span>
-                 <div class="row row-wrapper">
-                     <div class="services-item col-4">
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-wrapper">
+                <h2 class="title">Our Services</h2>
+                <span class="desc services-desc">Fusce dapibus, tellusac cursus commodo, tortor mauris condimentum. Duis
+                    mollis, non commodo luctus nisi erat porttitor Ligula, eget Lacinia odio sem necelit. Fusce dapibus,
+                    tellus ac cursus commodo, tordor mauris condimenturn nibn.</span>
+                <div class="row row-wrapper">
+                    <div class="services-item col-4">
                         <div class="services-item-icon-wrapper">
                             <img src="assets/img/pen.png" alt="pen" class="services-item_icon">
                         </div>
                         <div class="flex-col">
                             <h3 class="services-item-title">Curtom Design</h3>
-                            <span class="services-item-desc">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</span>
+                            <span class="services-item-desc">Curabitur vestibulum eget mauris quis laoreet. Phasellus in
+                                quam laoreet, viverra lacus ut, ultrices velit.</span>
                         </div>
-                     </div>
-                     <div class="services-item col-4">
+                    </div>
+                    <div class="services-item col-4">
                         <div class="services-item-icon-wrapper">
                             <img src="assets/img/bulb.png" alt="bulb" class="services-item-icon">
                         </div>
                         <div class="flex-col">
                             <h3 class="services-item-title">Inovative Ideas</h3>
-                            <span class="services-item-desc">Quisque luctus, quam eget molestia commodo, lacus purus cussus purus, nec retrum tellus dolor id lorem.</span>
+                            <span class="services-item-desc">Quisque luctus, quam eget molestia commodo, lacus purus
+                                cussus purus, nec retrum tellus dolor id lorem.</span>
                         </div>
-                     </div>
-                     <div class="services-item col-4">
+                    </div>
+                    <div class="services-item col-4">
                         <div class="services-item-icon-wrapper">
                             <img src="assets/img/heart.png" alt="heart" class="services-item-icon">
                         </div>
                         <div class="flex-col">
-                            <h3 class="services-item-title" >Love Is The Answer</h3>
-                            <span class="services-item-desc">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</span>
+                            <h3 class="services-item-title">Love Is The Answer</h3>
+                            <span class="services-item-desc">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
+                                turpis, et consequat felis. Quisque condimentum.</span>
                         </div>
-                     </div>
-                     <div class="services-item col-4">
+                    </div>
+                    <div class="services-item col-4">
                         <div class="services-item-icon-wrapper">
                             <img src="assets/img/phone.png" alt="phone" class="services-item-icon">
                         </div>
                         <div class="flex-col">
                             <h3 class="services-item-title">Responsive Layout</h3>
-                            <span class="services-item-desc">Sed porttitor placerat rhoncus. Inat nunc tellus. Maecenas blandit nunc Ligula. Praesent elit leo.</span>
+                            <span class="services-item-desc">Sed porttitor placerat rhoncus. Inat nunc tellus. Maecenas
+                                blandit nunc Ligula. Praesent elit leo.</span>
                         </div>
-                     </div>
-                     <div class="services-item col-4">
+                    </div>
+                    <div class="services-item col-4">
                         <div class="services-item-icon-wrapper">
                             <img src="assets/img/bubble.png" alt="bubble" class="services-item-icon">
                         </div>
                         <div class="flex-col">
                             <h3 class="services-item-title">24/7 Support</h3>
-                            <span class="services-item-desc">Vivamus vel quam lacinia, tincidunt duinon, vehicala nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem.</span>
+                            <span class="services-item-desc">Vivamus vel quam lacinia, tincidunt duinon, vehicala nisi.
+                                Nulla a sem erat. Pellentesque egestas venenatis lorem.</span>
                         </div>
-                     </div>
-                     <div class="services-item col-4">
+                    </div>
+                    <div class="services-item col-4">
                         <div class="services-item-icon-wrapper">
                             <img src="assets/img/star.png" alt="star" class="services-item-icon">
                         </div>
                         <div class="flex-col">
                             <h3 class="services-item-title">Feel Like A Star</h3>
-                            <span class="services-item-desc">Quisque hendrerit purus clapibus, ornare nibn vitae, viverra nibn. Fusce vitae aliquam tellus.</span>
+                            <span class="services-item-desc">Quisque hendrerit purus clapibus, ornare nibn vitae,
+                                viverra nibn. Fusce vitae aliquam tellus.</span>
                         </div>
                     </div>
-                 </div>
-              </div>
-           </div>
-           <div class="services-bottom"></div>
+                </div>
+            </div>
+        </div>
+        <div class="services-bottom"></div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="container">
-           <div class="portfolio_wraper">
+            <div class="portfolio_wraper">
                 <h2 class="title-portfolio">Portfolio</h2>
-                <span class="portfolio-desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
-           </div>
-           <div class="button-portfolio">
-                <div class="portfolio-desc-item"><button class="button-item">All</button></div>
+                <span class="portfolio-desc">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+                    lacinia odio sem nec elit.</span>
+            </div>
+            <div class="button-portfolio" id="portfolio-filter">
+                <div class="portfolio-desc-item"><button class="button-item active-1">All</button></div>
                 <div class="portfolio-desc-item"><button class="button-item">Web Design</button></div>
                 <div class="portfolio-desc-item"><button class="button-item">Graphic Design</button></div>
                 <div class="portfolio-desc-item"><button class="button-item">Artwork</button></div>
-           </div>
-           <div class="flex-wrapper">
+            </div>
+            <div class="flex-wrapper" id="portfolio-pics">
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture1.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture1.png" alt="">
                 </div>
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture2.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture2.png" alt="">
                 </div>
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture3.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture3.png" alt="">
                 </div>
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture4.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture4.png" alt="">
                 </div>
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture5.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture5.png" alt="">
                 </div>
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture6.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture6.png" alt="">
                 </div>
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture7.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture7.png" alt="">
                 </div>
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture8.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture8.png" alt="">
                 </div>
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture9.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture9.png" alt="">
                 </div>
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture10.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture10.png" alt="">
                 </div>
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture11.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture11.png" alt="">
                 </div>
                 <div class="flex-portfolio-item">
-                    <img src="assets/img/picture12.png" height="187" width="220" alt="">
+                    <img class="portfolio-img" src="assets/img/picture12.png" alt="">
                 </div>
             </div>
-       </div>
-       <div class="portfolio-bottom"></div>
+        </div>
+        <div class="portfolio-bottom"></div>
     </section>
-    <section class="about-us">
+    <section id="about" class="about-us">
         <div class="container">
             <div class="about-wrapper">
                 <h2 class="about-title">About Us</h2>
-                 <span class="about-desc">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus nisi erat porttitor Ligula, eget Lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tordor mauris condimenturn nibn.</span>
+                <span class="about-desc">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis
+                    mollis, non commodo luctus nisi erat porttitor Ligula, eget Lacinia odio sem nec elit. Fusce
+                    dapibus, tellus ac cursus commodo, tordor mauris condimenturn nibn.</span>
             </div>
             <div class="flex-about-wrapper">
-            <div class="about-flex">
-                <div class="about-item-foto-wrapper">
-                    <img src="assets/img/photo1.png" height="300" width="300" alt="">
-                </div>
-                <div class="about-col">
-                    <h3 class="about-item-title">Adam Jensenl</h3>
-                    <span class="about-item-desc">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</span>
-                </div>
-                   <div class="about-icon">
-                    <div class="about-icon-item item-message">
-                        <img class="img-icon icon-facebook" src="assets/img/facebook.png">
+                <div class="about-flex">
+                    <div class="about-item-foto-wrapper">
+                        <img src="assets/img/photo1.png" height="300" width="300" alt="">
                     </div>
-                    <div class="about-icon-item item-message">
-                        <img class="img-icon" src="assets/img/google+.png">
+                    <div class="about-col">
+                        <h3 class="about-item-title">Adam Jensenl</h3>
+                        <span class="about-item-desc">Quisque luctus, quam eget molestie commodo, lacus purus cursus
+                            purus, nec rutrum tellus dolor id lorem.</span>
                     </div>
-                    <div class="about-icon-item item-message">
-                        <img class="img-icon" src="assets/img/Twitter.png">
-                    </div>
-                    <div class="about-icon-item item-message">
-                        <img class="img-icon" src="assets/img/LinkedIn.png">
-                    </div>
-                </div>
-            </div>
-            <div class="about-flex">
-                <div class="about-item-foto-wrapper">
-                    <img src="assets/img/photo2.png" height="300" width="300" alt="">
-                </div>
-                <div class="about-col">
-                    <h3 class="about-item-title">Desmond Miles</h3>
-                    <span class="about-item-desc">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viiverra lacus ut, ultrices velit.</span>
-                </div>
-                <div class="about-icon">
-                    <div class="about-icon-item">
-                        <img class="img-icon" src="assets/img/facebook.png">
-                    </div>
-                    <div class="about-icon-item">
-                        <img class="img-icon" src="assets/img/google+.png">
-                    </div>
-                    <div class="about-icon-item">
-                        <img class="img-icon" src="assets/img/Twitter.png">
-                    </div>
-                    <div class="about-icon-item">
-                        <img class="img-icon" src="assets/img/LinkedIn.png">
+                    <div class="about-icon">
+                        <div class="about-icon-item item-message">
+                            <img class="img-icon icon-facebook" src="assets/img/facebook.png">
+                        </div>
+                        <div class="about-icon-item item-message">
+                            <img class="img-icon" src="assets/img/google+.png">
+                        </div>
+                        <div class="about-icon-item item-message">
+                            <img class="img-icon" src="assets/img/Twitter.png">
+                        </div>
+                        <div class="about-icon-item item-message">
+                            <img class="img-icon" src="assets/img/LinkedIn.png">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="about-flex">
-                <div class="about-item-foto-wrapper">
-                    <img src="assets/img/photo3.png" height="300" width="300" alt="">
+                <div class="about-flex">
+                    <div class="about-item-foto-wrapper">
+                        <img src="assets/img/photo2.png" height="300" width="300" alt="">
+                    </div>
+                    <div class="about-col">
+                        <h3 class="about-item-title">Desmond Miles</h3>
+                        <span class="about-item-desc">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
+                            laoreet, viiverra lacus ut, ultrices velit.</span>
+                    </div>
+                    <div class="about-icon">
+                        <div class="about-icon-item">
+                            <img class="img-icon" src="assets/img/facebook.png">
+                        </div>
+                        <div class="about-icon-item">
+                            <img class="img-icon" src="assets/img/google+.png">
+                        </div>
+                        <div class="about-icon-item">
+                            <img class="img-icon" src="assets/img/Twitter.png">
+                        </div>
+                        <div class="about-icon-item">
+                            <img class="img-icon" src="assets/img/LinkedIn.png">
+                        </div>
+                    </div>
                 </div>
-                <div class="about-col">
-                    <h3 class="about-item-title">Scolara Visari</h3>
-                    <span class="about-item-desc">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et conseguat felis. Quisque condimentum.</span>
+                <div class="about-flex">
+                    <div class="about-item-foto-wrapper">
+                        <img src="assets/img/photo3.png" height="300" width="300" alt="">
+                    </div>
+                    <div class="about-col">
+                        <h3 class="about-item-title">Scolara Visari</h3>
+                        <span class="about-item-desc">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis,
+                            et conseguat felis. Quisque condimentum.</span>
+                    </div>
+                    <div class="about-icon">
+                        <div class="about-icon-item">
+                            <img class="img-icon" src="assets/img/facebook.png">
+                        </div>
+                        <div class="about-icon-item">
+                            <img class="img-icon" src="assets/img/google+.png">
+                        </div>
+                        <div class="about-icon-item">
+                            <img class="img-icon" src="assets/img/Twitter.png">
+                        </div>
+                        <div class="about-icon-item">
+                            <img class="img-icon" src="assets/img/LinkedIn.png">
+                        </div>
+                    </div>
                 </div>
-                <div class="about-icon">
-                    <div class="about-icon-item">
-                        <img class="img-icon" src="assets/img/facebook.png">
-                    </div>
-                    <div class="about-icon-item">
-                        <img class="img-icon" src="assets/img/google+.png">
-                    </div>
-                    <div class="about-icon-item">
-                        <img class="img-icon" src="assets/img/Twitter.png">
-                    </div>
-                    <div class="about-icon-item">
-                        <img class="img-icon" src="assets/img/LinkedIn.png">
-                    </div>
-                </div>
-            </div>
             </div>
         </div>
         <div class="about-bottom"></div>
     </section>
-    <section class="quote">
+    <section id="contact" class="quote">
         <div class="container">
-           <div class="quote-wrapper">
+            <div class="quote-wrapper">
                 <h2 class="quote-title">Get a Quote</h2>
-                <span class="quote-desc">Fusce dapibus, tellusac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus nisi erat porttitor Ligula, eget Lacinia odio sem necelit. Fusce dapibus, tellus ac cursus commodo, tordor mauris condimenturn nibn.</span>
-           </div>
-           <div class="form">
-               <div class="quote-form">
-                   <form class="form-wrapper" method="post" action=" ">
-                         <input type="text" pattern="^[ A-Za-z]{3,}" name="name" placeholder="Name (Required)" required>
-                         <input type="text" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" name="mail" placeholder="Email (Required)" required>
-                         <input type="text" name="subject" placeholder="Subject">
-                         <textarea name="comment" placeholder="Describe in your project in detail..."  id="" cols="30" rows="10" ></textarea>
-                         <input  type="submit" value="Submit">
+                <span class="quote-desc">Fusce dapibus, tellusac cursus commodo, tortor mauris condimentum. Duis mollis,
+                    non commodo luctus nisi erat porttitor Ligula, eget Lacinia odio sem necelit. Fusce dapibus, tellus
+                    ac cursus commodo, tordor mauris condimenturn nibn.</span>
+            </div>
+            <div class="form">
+                <div class="quote-form">
+                    <form class="form-wrapper" method="post" action=" ">
+                        <input id="name" type="text" pattern="^[ A-Za-z]{3,}" name="name" placeholder="Name (Required)"
+                            required>
+                        <input id="email" type="text" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                            name="mail" placeholder="Email (Required)" required>
+                        <input id="subject" type="text" name="subject" placeholder="Subject">
+                        <textarea id="description" name="comment" placeholder="Describe in your project in detail..."
+                            id="" cols="30" rows="10"></textarea>
+                        <input id="form-submit" type="submit" value="Submit">
                     </form>
-               </div>
+                </div>
                 <div class="quote-info">
-                   <div class="contact">
-                       <h2 class="contact-info-title">Contact Information</h2>
-                       <span class="contact-info-desc">Quisque hendrerit purus dapibus, ornare nibn vitae, aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</span>
-                   </div>
-                   <div class="address">
-                       <span class="address-item location">Elm St. 14/05 Lost City </span>
-                       <span class="address-item phone"><a class="phone-link"href="tel: +03528 331 86 35"> 03528 331 86 35</a></span>
-                       <span class="address-item mail"><a class="mail-link" href="mailto:info@singolo.com">info@singolo.com</a></span>
-                   </div>
-               </div>
-           </div>
+                    <div class="contact">
+                        <h2 class="contact-info-title">Contact Information</h2>
+                        <span class="contact-info-desc">Quisque hendrerit purus dapibus, ornare nibn vitae, aliquam
+                            tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at
+                            aliquet turpis, et consequat felis.</span>
+                    </div>
+                    <div class="address">
+                        <span class="address-item location">Elm St. 14/05 Lost City </span>
+                        <span class="address-item phone"><a class="phone-link" href="tel: +03528 331 86 35"> 03528 331
+                                86 35</a></span>
+                        <span class="address-item mail"><a class="mail-link"
+                                href="mailto:info@singolo.com">info@singolo.com</a></span>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="quote-bottom"></div>
     </section>
     <footer class="footer">
         <div class="container">
-           <div class="footer-wrapper">
+            <div class="footer-wrapper">
                 <div class="copyright">
                     <span class="copyright-item">&copy; Copyright 2013</span>
                 </div>
@@ -296,7 +352,9 @@
                     </div>
                 </div>
             </div>
-        </div> 
-    </footer>    
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
