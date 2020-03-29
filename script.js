@@ -9,6 +9,20 @@ navLinks.forEach(el => el.addEventListener('click',(event)=>{
   event.target.classList.add('active');
 }));
 
+
+/* меню бургер */
+
+const buttonHamburger = document.querySelector(".hamburger");
+const mobileMenu = document.querySelector(".g-mm");
+const logosingolo =document.querySelector(".header-logo-singolo")
+buttonHamburger.addEventListener('click', (e) => {
+  buttonHamburger.classList.toggle('hamburger-active');
+  mobileMenu.classList.toggle('active');
+});
+
+
+
+
 /*Slider. Переключение слайдов*/
 
 const left_arrow = document.querySelector(".slider-arrow-prev");

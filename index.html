@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singolo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
@@ -11,10 +12,17 @@
 
 <body>
     <header  class="header">
-        <div class="container">
+        <div class="container container-header">
             <div class="header-wrapper">
+                <div class="hamburger-container">
+                    <div class="hamburger">
+                        <div class="hamburger-icon"></div>
+                        <div class="hamburger-icon"></div>
+                        <div class="hamburger-icon"></div>
+                    </div>
+                </div>
                 <a href="#" class="header-logo">
-                    <h1 class="header-logo-singolo">Singolo<sap class="header-logo-star">*</sap>
+                    <h1 class="header-logo-singolo ">Singolo<sap class="header-logo-star">*</sap>
                     </h1>
                 </a>
                 <nav class="header-nav">
@@ -35,6 +43,7 @@
         <div class="header-bottom"></div>
     </header>
     <section id="home" class="slider">
+        
         <div class="slide_1 slide">
             <div class="container active-background">
                 <div class="slider-wrapper">
@@ -50,7 +59,7 @@
                         <div class="slider-item slider-item_2">
                             <div class="phone-container">
                                 <img src="assets/img/iPhone_Horizontal.png" alt="iPhone horizontal"
-                                    class="slider-item-content">
+                                    class="slider-item-content mobile-slider">
                                 <img class="screen-black active-screen-gorizontal" src="assets/img/Screen2.png">
                                <div class=buttom-phone-2></div>
                             </div>
@@ -59,11 +68,11 @@
 
                 </div>
             </div>
-
+            
         </div>
         <div class="slide_2 slide">
             <div class="container active-background">
-                <div class="slider-wrapper">
+                <div class="slider-wrapper slider-item-second">
                     <div class="slider-slides second">
                         <div class="slider-second-slide">
                             <img src="assets/img/Slide-2.png" alt="slide-2">
@@ -73,11 +82,12 @@
             </div>
             
         </div>
-        <div class="slider-arrows container">
+        
             <div class="slider-arrow-prev slider-arrow"></div>
             <div class="slider-arrow-next slider-arrow"></div>
-        </div>
+      
         <div class="slider-bottom"></div>
+  
     </section>
     <section id="services" class="services">
         <div class="container">
@@ -217,7 +227,7 @@
             <div class="flex-about-wrapper">
                 <div class="about-flex">
                     <div class="about-item-foto-wrapper">
-                        <img src="assets/img/photo1.png" height="300" width="300" alt="">
+                        <img src="assets/img/photo1.png"  alt="">
                     </div>
                     <div class="about-col">
                         <h3 class="about-item-title">Adam Jensenl</h3>
@@ -241,7 +251,7 @@
                 </div>
                 <div class="about-flex">
                     <div class="about-item-foto-wrapper">
-                        <img src="assets/img/photo2.png" height="300" width="300" alt="">
+                        <img src="assets/img/photo2.png"  alt="">
                     </div>
                     <div class="about-col">
                         <h3 class="about-item-title">Desmond Miles</h3>
@@ -265,7 +275,7 @@
                 </div>
                 <div class="about-flex">
                     <div class="about-item-foto-wrapper">
-                        <img src="assets/img/photo3.png" height="300" width="300" alt="">
+                        <img src="assets/img/photo3.png" alt="">
                     </div>
                     <div class="about-col">
                         <h3 class="about-item-title">Scolara Visari</h3>
@@ -354,6 +364,23 @@
             </div>
         </div>
     </footer>
+    <div class="g-mm">
+        <div class="g-mm-container">
+            <nav class="header-nav">
+                    <ul class="header-menu">
+                        <li><a href="#home" class="header-menu-link active">home</a></li>
+                        <li class="header-menu-point">·</li>
+                        <li><a href="#services" class="header-menu-link">services</a></li>
+                        <li class="header-menu-point">·</li>
+                        <li><a href="#portfolio" class="header-menu-link">portfolio</a></li>
+                        <li class="header-menu-point">·</li>
+                        <li><a href="#about" class="header-menu-link">about</a></li>
+                        <li class="header-menu-point">·</li>
+                        <li><a href="#contact" class="header-menu-link">contact</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
